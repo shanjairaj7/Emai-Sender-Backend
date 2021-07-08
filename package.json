@@ -1,0 +1,21 @@
+{
+  "name": "emailsending",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.5",
+    "apollo-server": "^2.25.2",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1"
+  }
+}
